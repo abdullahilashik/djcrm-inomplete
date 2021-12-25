@@ -1,0 +1,19 @@
+[
+    {
+        "model":"leads.agent",
+        "pk": 1,
+        "fields": {
+            "user":1
+        }
+    },
+    {
+        "model": "leads.lead",
+        "pk": 1,
+        "fields": {
+            "first_name": "Jason",
+            "last_name": "Doe",
+            "age": 30,
+            "agent": 1
+        }
+    }
+]
